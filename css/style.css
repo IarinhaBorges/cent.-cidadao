@@ -24,3 +24,8 @@ ul.nav a.nav-link {
 .nav-link{
     margin: 0 30px;
 }
+.contact-form{
+    border-top-color: #ff8800;
+    color: black;
+    text-align: justify;
+}
