@@ -38,6 +38,6 @@ h2{
     font-weight: bold;
 }
 
-nav{
-    color: aquamarine;
+.navbar bg-body-tertiary{
+    color:aqua
 }
