@@ -38,6 +38,6 @@ h2{
     font-weight: bold;
 }
 
-::placeholder{
-    color: rgb(255, 0, 0);
+nav{
+    color: aquamarine;
 }
