@@ -37,6 +37,7 @@ ul.nav a.nav-link {
 h2{
     font-weight: bold;
 }
-.col-sm-10{
-    color: rgb(168, 168, 168);
+
+::placeholder{
+    color: rgb(126, 126, 126);
 }
