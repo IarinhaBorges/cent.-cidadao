@@ -43,4 +43,6 @@ button{
 .container-fluid{
     color:rgb(62, 62, 99)
 }
-
+.msg{
+    text-align: center;
+}
