@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/Central_do_Cidadão-removebg-preview.png" type="image/x-icon">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 </head>
-<body>
 
+<body>
     <style>
         .fundo {
     height: 100vh;
@@ -48,16 +48,32 @@
                     <h2>Informe seus dados abaixo</h2>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="text" placeholder="Login" name="email" class="form-control opacity-50" id="floatingInput">
+                    <input type="text" placeholder="Login" name="nome" class="form-control opacity-50" id="floatingInput">
+                    <label class="nome_input" for="floatingInput">Nome</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" placeholder="Login" name="sobrenome" class="form-control opacity-50" id="floatingInput">
+                    <label class="nome_input" for="floatingInput">Sobrenome</label>
+                </div>
+                <div class="form-floating mb-4">
+                    <input type="password" placeholder="Senha" name="email" class="form-control opacity-50" id="floatingInput">
                     <label class="nome_input" for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating mb-4">
+                    <input type="password" placeholder="Senha" name="cpf" class="form-control opacity-50" id="floatingInput">
+                    <label class="nome_input" for="floatingInput">CPF</label>
+                </div>
+                <div class="form-floating mb-4">
+                    <input type="password" placeholder="Senha" name="rg" class="form-control opacity-50" id="floatingInput">
+                    <label class="nome_input" for="floatingInput">RG</label>
                 </div>
                 <div class="form-floating mb-4">
                     <input type="password" placeholder="Senha" name="senha" class="form-control opacity-50" id="floatingInput">
                     <label class="nome_input" for="floatingInput">Senha</label>
                 </div>
                 <div class="d-flex justify-content-between align-items-center mb-3">
-                    <a class="text-dark" href="cadastro.html">Não tenho conta criada</a>
-                    <a href="novi_index.html" class="btn py-2 px-3" style="background-color: #FF8800; color: #000000;">Entrar</a>
+                    <a class="btn btn-dark" href="novi_index.html">Cancelar</a>
+                    <a href="novi_index.html" class="btn py-2 px-3" style="background-color: #FF8800; color: #000000;">Cadastrar</a>
                 </div>
             </form>
         </main>
@@ -66,4 +82,3 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
-</html>
