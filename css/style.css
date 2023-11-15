@@ -11,18 +11,11 @@ ul.nav a.nav-link {
     text-decoration: none;
     font-size: 20px;
 }
-.nav-item:hover {
-    background-color: #ff8800;
-    color: #fff;
-}
 .nav-item:hover .nav-link {
     color: #fff;
 }
 .nav-item.active {
     border-bottom: 2px solid #ff8800;
-}
-.nav-link{
-    margin: 0 30px;
 }
 
 .contact-info{
@@ -37,12 +30,30 @@ h2{
     font-weight: bold;
 }
 button{
-    color: #171717;
-    
-}
-.container-fluid{
-    color:rgb(62, 62, 99)
+    color: #171717;   
 }
 .msg{
     text-align: center;
 }
+
+.jumbotron {
+    background-size: cover;
+    color: #fff;
+}
+.service-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+.faq-card {
+    margin: 10px;
+}
+
+.modal-lg-custom{
+    width: 50vh;
+}
+.card-img-top {
+    margin-bottom: 15px;
+}
+
