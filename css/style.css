@@ -21,9 +21,6 @@ ul.nav a.nav-link {
 .nav-item.active {
     border-bottom: 2px solid #ff8800;
 }
-.nav-link{
-    margin: 0 30px;
-}
 
 .contact-info{
     color: #ff8800;
@@ -64,4 +61,7 @@ button{
 
 .modal-lg-custom{
     width: 50vh;
+}
+.card-img-top {
+    margin-bottom: 15px; /* Altere o valor conforme necessário para ajustar o espaçamento */
 }
