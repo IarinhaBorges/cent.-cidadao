@@ -11,10 +11,6 @@ ul.nav a.nav-link {
     text-decoration: none;
     font-size: 20px;
 }
-.nav-item:hover {
-    background-color: #ff8800;
-    color: #fff;
-}
 .nav-item:hover .nav-link {
     color: #fff;
 }
@@ -34,18 +30,13 @@ h2{
     font-weight: bold;
 }
 button{
-    color: #171717;
-    
-}
-.container-fluid{
-    color:rgb(62, 62, 99)
+    color: #171717;   
 }
 .msg{
     text-align: center;
 }
 
 .jumbotron {
-    background-image: url('background.jpg');
     background-size: cover;
     color: #fff;
 }
@@ -63,5 +54,5 @@ button{
     width: 50vh;
 }
 .card-img-top {
-    margin-bottom: 15px; /* Altere o valor conforme necessário para ajustar o espaçamento */
+    margin-bottom: 15px;
 }
