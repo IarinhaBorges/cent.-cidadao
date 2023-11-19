@@ -2,6 +2,12 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    /* background-color: #f8f9fb; */
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 .logomarca{
     width: 8vh;
@@ -57,15 +63,14 @@ button{
 .card-img-top {
     margin-bottom: 15px;
 }
-.frase{
-    background-color: #ff8800;
-    color: #ffffff;
-    text-align: center;
-    font-size: 24px;
-}
+
 .botões{
     color: #ff8800;
     size: 23px;
 }
+
+/* .cor-light{
+    color: #f8f9fb;
+} */
 
 

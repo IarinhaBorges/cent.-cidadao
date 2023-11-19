@@ -3,13 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>notícias</title>
+    <title>Notícias</title>
+    <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="img/Central_do_Cidadão-removebg-preview.png" type="image/x-icon">
 </head>
 <body>
+
+    <style>
+        .card {
+            overflow: hidden;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
+    </style>
 
 <!-- Barra de navegação -->
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ff8800;">
@@ -19,51 +34,110 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
-
             <li class="nav-item">
-                <a class="nav-link" href="novi_index.html"><strong>Início</strong></a>
+                <a class="nav-link" href="index.html"><strong>Início</strong></a>
             </li>
-
             <li class="nav-item active">
-                <a class="nav-link" href="noticias.html"><strong>Notícias <span class="sr-only">(atual)</span> </strong></a>
+                <a class="nav-link" href="noticias.html"><strong>Notícias <span class="sr-only">(atual)</span></strong></a>
             </li>
-          
             <li class="nav-item">
                 <a class="nav-link" href="contato.html"><strong>Contato</strong></a>
             </li>
-
             <li class="nav-item">
                 <a class="nav-link" href="transparencia.html"><strong>Transparência</strong></a>
             </li>
-
             <li class="nav-item">
                 <a class="nav-link" href="servicos.html"><strong>Serviços</strong></a>
             </li>
         </ul>
         <!-- Botão Entrar -->
         <button class="btn btn-light my-2 my-sm-0" type="submit">
-            <i class="bi bi-person"></i> Entrar </button>
+            <i class="bi bi-person"></i> Entrar
+        </button>
     </div>
 </nav>
 
-
-    <!-- Notícias e Avisos -->
 <div class="container mt-4">
-    <h2 class="text-center">Notícias e Avisos</h2>
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title">Novos Horários de Atendimento</h5>
-            <p class="card-text">A partir de 1º de março, nossos horários de atendimento serão estendidos. Saiba mais <a href="#">aqui</a>.</p>
+    <h2 class="text-center">Avisos e Notícias</h2>
+</div>
+
+<!-- Notícias e Avisos usando o sistema de grid -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Card 1 -->
+            <div class="card mb-4">
+                <img src="img/vacina.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Vacinação contra o sarampo</h5>
+                    <p class="card-text">A vacina para o sarampo é a chave para um futuro saudável. Proteja-se e proteja quem você ama! A sua saúde é a nossa prioridade! Juntos pela imunização!💙💉 #TodosContraOSarampo #Vacinação #SaúdeParaTodos</p>
+                    <a href="#" class="btn btn-primary">Agendar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <!-- Card 2 -->
+            <div class="card mb-4">
+                <img src="img/IMAGEM DA CRIANÇA COM RG.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Emissão do seu RG</h5>
+                    <p class="card-text">Pequeno cidadão, grandes passos! Emitir o RG do seu bebê é plantar as sementes da identidade e pertencimento. Cada detalhe é crucial nessa jornada de descobrimento. 🌟👶✨ #PrimeirosDocumentos #CrescendoComCidadania</p>
+                    <a href="#" class="btn btn-primary">Agendar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Card 3 -->
+            <div class="card mb-4">
+                <img src="img/carteirasorriso.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Emissão da sua CNH</h5>
+                    <p class="card-text">Conquistar a CNH não é apenas obter um documento, é ganhar a liberdade de explorar novos horizontes. Além do volante, está a responsabilidade e o compromisso com a segurança. Tire sua CNH com consciência e transforme estradas em caminhos de realizações. 🚗✨ #CNH #DireçãoComResponsabilidade</p>
+                    <a href="#" class="btn btn-primary">Agendar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <!-- Card 4 -->
+            <div class="card mb-4">
+                <img src="img/certnasc.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Emissão da certidão de nascimento</h5>
+                    <p class="card-text">"Ter a sua certidão de nascimento é mais do que um papel; é a garantia de identidade, cidadania e acesso a direitos essenciais. É o primeiro passo para uma vida plena. Valorize esse documento, pois ele é a chave para desbloquear o potencial único de cada indivíduo. 💼👶🔐 #CertidãoDeNascimento #PortaDeEntradaParaOFuturo"</p>
+                    <a href="#" class="btn btn-primary">Agendar</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
+
 <!-- Rodapé -->
 <footer class="bg-dark text-light text-center py-3">
+    <div class="container">
+        <h2 class="text-center">Redes Sociais</h2>
+        <p class="text-center">Siga-nos nas redes sociais para atualizações e interações com a comunidade.</p>
+        <ul class="list-inline text-center">
+            <li class="list-inline-item">
+                <a href="#" class="botões"><i class="bi-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#" class="botões"><i class="bi-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#" class="botões"><i class="bi-instagram"></i></a>
+            </li>
+        </ul>
+    </div>
     &copy; 2023 Central do Cidadão. Todos os direitos reservados.
 </footer>
 
-<!-- Adicione os links para os arquivos JavaScript do Bootstrap e jQuery (opcional) -->
+<!-- Scripts JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
 </body>
