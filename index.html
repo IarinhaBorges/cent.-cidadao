@@ -11,6 +11,18 @@
     <link rel="shortcut icon" href="img/Central_do_Cidadão-removebg-preview.png" type="image/x-icon">
 </head>
 <body>
+
+    <style>
+        .card {
+            overflow: hidden;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
+    </style>
+
 <!-- Barra de navegação -->
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ff8800;">
     <a class="navbar-brand" href="#"><strong>Central do Cidadão</strong></a>
@@ -56,9 +68,10 @@
     <h1 class="text-end py-4"><strong>Destaques</strong></h1>
     <div class="row mx-auto">
 
-        <div class="col-xs-12 col-sm-6 col-md-4 my-4">
-            <div class="card" style="width: 17rem;">
-                <img class="card-img-top" src="img/rg.jpg" alt="Imagem de capa do card">
+        <div class="col-md-6">
+            <!-- Card 1 -->
+            <div class="card mb-4">
+                <img src="img/rg.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Emissão de Documentos</h5>
                     <p class="card-text">Renove sua carteira de identidade e outros documentos essenciais.</p>
@@ -67,30 +80,22 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-4 my-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/saude.jpeg" alt="Imagem de capa do card">
+        <div class="col-md-6">
+            <!-- Card 2 -->
+            <div class="card mb-4">
+                <img src="img/atendimentosaude" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Atendimento de Saúde</h5>
-                    <p class="card-text">Agende consultas médicas e serviços de saúde gratuitos.</p>
+                    <p class="card-text">Agende consultas médicas e serviços de saúde gratuitos sem precisar sair de casa.</p>
                     <a href="#" class="btn" style="background-color: #ff8800; color: #ffffff;">Visitar</a>
                 </div>
             </div>
         </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4 my-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/agendamento.jpg" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title">Agendamento Online</h5>
-                    <p class="card-text">Agende seus serviços de forma rápida e fácil evitando longas filas.</p>
-                    <a href="#" class="btn" style="background-color: #ff8800; color: #ffffff;">Visitar</a>
-                </div>
-            </div>
-        </div>
+    </div>
 
     </div>
 </div>
+
 
 <!-- Horário de Atendimento -->
 <div class="container mt-4">
