@@ -27,10 +27,10 @@ ul.nav a.nav-link {
 .contact-info{
     color: #ff8800;
     font-size: 50px;
+    align-content: center;
 }
 .contact-form{
-    color: black;
-    text-align: justify;
+    color: #ff8800;
 }
 h2{
     font-weight: bold;
