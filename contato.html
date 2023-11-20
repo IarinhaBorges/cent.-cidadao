@@ -11,6 +11,16 @@
   <link rel="shortcut icon" href="img/Central_do_Cidadão-removebg-preview.png" type="image/x-icon">
 </head>
 <body>
+  <style>
+    .card {
+        overflow: hidden;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+</style>
     <!-- Barra de navegação -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ff8800;">
       <a class="navbar-brand" href="index.html"><strong>Central do Cidadão</strong></a>
@@ -45,71 +55,74 @@
               <i class="bi bi-person"></i> Entrar </button>
       </div>
   </nav><br><br>
-    <div class="container contact">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="contact-info">
-                        <img src="img/77520.png" class= "d-inline-block align-text-top" alt="image" width="100"/>
+    <div class="container contact" style="align-content: center;">
+            <div class="row" style="align-items: center;">
+                <div class="col-md-7">
+                    <div class="contact-info" style="align-items: center; text-align: center;">
                         <h2>Nosso contato</h2>
                         <h4>Para tirar dúvidas urgentes, nos mande mensagem!</h4>
+                        <img scr="img/atendente" width="100"/>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-5">
+                  <img src="img/atendente.png" class= "d-inline-block align-text-top" alt="image" width="300"/>
+
+                </div>
+              </div>
+                <div class="col-md-12">
                     <div class="contact-form">
                         <div class="form-group">
-                          <label class="control-label col-sm-2" for="fname">Primeiro nome:</label>
+                          <label class="control-label col-sm-12" for="fname" >Primeiro nome:</label>
                           <div class="col-sm-10">          
                             <input type="text" class="form-control" id="fname" placeholder="Primeiro nome" name="fname">
                           </div>
                         </div>
                         <div class="form-group">
-                          <label class="control-label col-sm-2" for="lname">Sobrenome:</label>
+                          <label class="control-label col-sm-12" for="lname">Sobrenome:</label>
                           <div class="col-sm-10">          
                             <input type="text" class="form-control" id="lname" placeholder="Sobrenome" name="lname">
                           </div>
                         </div>
                         <div class="form-group">
-                          <label class="control-label col-sm-2" for="email">Email:</label>
+                          <label class="control-label col-sm-12" for="email">Email:</label>
                           <div class="col-sm-10">
                             <input type="email" class="form-control" id="email" placeholder="Email" name="email">
                           </div>
                         </div>
                         <div class="form-group">
-                          <label class="control-label col-sm-2" for="comment">Mensagem:</label>
-                          <div class="col-sm-10">
-                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                          <label class="control-label col-sm-12" for="comment">Mensagem:</label>
+                          <div class="col-sm-12">
+                            <textarea class="form-control" rows="5" id="comment"></textarea><br><br>
+                            <button type="button" class="btn" style="background-color: #ff8800; color: #ffffff;">Enviar</button>
                           </div>
-                        </div>
-                        <br>
-                        <div class="form-group">        
-                          <div>
-                            <button type="button" class="btn btn-primary">Enviar</button>
-                          </div>
-                        </div>
+                        </div>       
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Rodapé -->
-    <footer class="bg-dark text-light text-center py-3">
-      <div class="container">
-          <h2 class="text-center">Redes Sociais</h2>
-          <p class="text-center">Siga-nos nas redes sociais para atualizações e interações com a comunidade.</p>
-          <ul class="list-inline text-center">
-              <li class="list-inline-item">
-                  <a href="#" class="botões"><i class="bi-facebook"></i></a>
-              </li>
-              <li class="list-inline-item">
-                  <a href="#" class="botões"><i class="bi-twitter"></i></a>
-              </li>
-              <li class="list-inline-item">
-                  <a href="#" class="botões"><i class="bi-instagram"></i></a>
-              </li>
-          </ul>
-      </div>
-      &copy; 2023 Central do Cidadão. Todos os direitos reservados.
-  </footer>
+<footer class="bg-dark text-light text-center py-3">
+  <div class="container">
+      <h2 class="text-center">Redes Sociais</h2>
+      <p class="text-center">Siga-nos nas redes sociais para atualizações e interações com a comunidade.</p>
+      <ul class="list-inline text-center">
+          <li class="list-inline-item">
+              <a href="#" class="botões"><i class="bi-facebook"></i></a>
+          </li>
+          <li class="list-inline-item">
+              <a href="#" class="botões"><i class="bi-twitter"></i></a>
+          </li>
+          <li class="list-inline-item">
+              <a href="#" class="botões"><i class="bi-instagram"></i></a>
+          </li>
+      </ul>
+  </div>
+  &copy; 2023 Central do Cidadão. Todos os direitos reservados.
+</footer>
+
+
+
 
 
   <!-- Modal -->
